@@ -63,7 +63,7 @@ int main(int argc, char* argv[])
 			throw po::error("The option '--output' is required but missing");
 		}
 
-		input = vm["intput"].as<std::string>();
+		input = vm["input"].as<std::string>();
 		reference = vm["reference"].as<std::string>();
 		output = vm["output"].as<std::string>();
 	}
